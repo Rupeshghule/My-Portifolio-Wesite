@@ -16,7 +16,7 @@ const [showMenu, setShowMenu] = useState(false);
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={1500} className='MenuListItem'>About</Link>
                 <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={1500} className='MenuListItem'>Portfolio</Link>
                 <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={1500} className='MenuListItem'>Contact</Link> 
-                // <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-50} duration={500} className='MenuListItem'>Achievements</Link>
+                {/* <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-50} duration={500} className='MenuListItem'>Achievements</Link> */}
             </div>
             <button className='menuBtn' onClick={ () => {
                 document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
