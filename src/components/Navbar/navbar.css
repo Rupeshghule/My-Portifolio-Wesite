@@ -1,0 +1,104 @@
+.navbar{
+    background: linear-gradient(rgb(39, 3, 87),rgba(16, 1, 35, 0.105));
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+   
+}
+.logo{
+    object-fit: cover;
+    height: 4rem;
+    width: 5rem;
+    filter: drop-shadow(2px -1px 4px #ffffff);
+    
+}
+
+.MenuListItem{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.MenuListItem:hover{
+    color : yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+.MenuListItem.active {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+  }
+.menuBtn{
+    background: #ffffff;
+    color: black;  
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 0 1rem;   
+    border-radius: 3rem;
+    box-shadow: 1px 1px 8px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.MenuImg{
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+}
+.active{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+
+.navmenu {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 10rem;
+    background: rgba(39, 3, 87, 0.566);
+    border-radius: 1rem;
+    backdrop-filter: blur(5px);
+}
+
+
+.ListItem{
+    color:white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: linear-gradient(rgba(39, 3, 87, 0.094), rgba(39, 3, 87, 0.304));
+}
+
+.mobMenu{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    filter: drop-shadow(2px 1px 2px #ffffffaa);
+    display: none;
+}
+@media screen and (max-width:710px) {
+    .mobMenu{
+        display: flex;
+    }   
+    .menu{
+        display: none;
+    }
+    .menuBtn{
+        display: none;
+    }
+}
