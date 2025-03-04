@@ -10,7 +10,7 @@ const Intro = () => {
     const handleDownload = () => {
       const link = document.createElement('a');
       link.href = Resume;
-      link.download = 'Rupesh_Resume.pdf'; 
+      link.download = 'Rupesh-Ghule_7038416738.pdf'; 
       link.click();
     };
   
