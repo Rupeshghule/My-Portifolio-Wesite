@@ -2,7 +2,7 @@ import React from 'react';
 import './intro.css';
 import bg from "../../../assets/bg_.png";
 import { Link } from 'react-scroll';
-import Resume from "../../../assets/resume/Rupesh_Resume.pdf";
+import Resume from "../../../assets/resume/Rupesh-Ghule_7038416738.pdf";
 import Ricon from "../../../assets/Resume.png"
 import Typewriter from 'typewriter-effect';
 import {Role} from "./role";
